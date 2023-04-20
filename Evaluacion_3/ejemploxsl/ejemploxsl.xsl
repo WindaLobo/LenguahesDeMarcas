@@ -2,7 +2,12 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:template match="/">
   <html>
+  <head>
+<meta charset ="UTF-8"/>
+<link rel="stylesheet" type="text/css " href="tabla.css"/>
+  </head>
   <body>
+  
   
   <h1>Ejemplo 1</h1>
   <xsl:for-each select="//pelicula">
@@ -62,7 +67,33 @@
    </xsl:otherwise>
 </xsl:choose>
   </xsl:for-each>
-  </body>
+  
+    
+  <h1>Ejemplo 8 Lista </h1>
+ 
+  <p><b>Listado  pelicula</b></p>
+     
+   <ol >
+   <xsl:for-each select="//pelicula">
+   <li>
+   <xsl:value-of select ="titulo"/></li>
+     </xsl:for-each>
+   </ol> 
+   
+   <h1>Ejemplo 9 tabla </h1>
+  <p><b>Tabla  </b></p>
+   <table bgcolor="#ccccff">
+   <tr>
+<td><b>Pelicula</b></td><td><b>Director</b></td>   
+   </tr>
+   <xsl:for-each select="//pelicula">
+   <tr>
+  <td><xsl:value-of select ="titulo"/></td>
+<td><xsl:value-of select ="director"/> </td>
+</tr>
+     </xsl:for-each>
+   </table>
+   </body>
   
   </html>
   
