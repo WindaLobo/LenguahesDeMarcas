@@ -58,8 +58,10 @@
    
    <h1>Ejercicios 5</h1>
     <h3>Mis libros:</h3>
-         <xsl:for-each select="//libro[precio>=50]">
-      <xsl:sort select="precio" data-type="number"/>
+         <xsl:for-each select="/libros/libro[precio > 30]">
+         
+    <p>
+   <xsl:value-of select ="titulo"/> </p><p>El precio es : <xsl:value-of select ="precio"/> </p><br></br>
   
      </xsl:for-each>
 

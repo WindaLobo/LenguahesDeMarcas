@@ -39,7 +39,6 @@
     <h1>Ejemplo 5   Filtrar la salida  </h1>
    <xsl:for-each select="//pelicula[director='Fernando León']">
    <p><b>Titulo:</b>
-
 <xsl:value-of select ="titulo"/></p>
 <p><b>Actor:</b>
    <xsl:value-of select ="actor"/> </p>
