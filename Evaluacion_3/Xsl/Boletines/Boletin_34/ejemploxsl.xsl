@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:template match="/">
-
   <html>
   <head>
 <meta charset ="UTF-8"/>
@@ -9,7 +8,6 @@
   </head>
   <body>  
   
-
  <h1>Ejercicios 1</h1>
  <h3>Mis libros</h3>
  <xsl:for-each select="//libro">
@@ -70,13 +68,12 @@
  <h3>Mis libros:</h3>
   <select>
  <xsl:for-each select="//libro">
-<option> <xsl:value-of select ="titulo"/> </option>  <option> <xsl:value-of select ="precio"/> </option>  
+<option><xsl:value-of select ="titulo"/></option> 
+<option> <xsl:value-of select ="precio"/> </option>  
   </xsl:for-each>
   </select>
   
-  
  </body>  
   </html>
- 
     </xsl:template>
 </xsl:stylesheet>

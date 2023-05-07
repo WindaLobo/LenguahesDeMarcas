@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
- <?xml-stylesheet type="text/xsl" href="/home/dam1/Documentos/lenguajes%20de%20marcas/Evaluacion_3/ejemploxsl/Boletin34/ejemploxsl.xsl"?> 
- <libros>
+ <?xml-stylesheet type="text/xsl" href="file:/C:/Datos%20Windar/LenguajesDeMarcas/Evaluacion_3/Xsl/Boletines/Boletin_34/ejemploxsl.xsl"?><libros>
  <libro> 
  <titulo>Mis almuerzos con gente inquietante</titulo>   
  <autor>Vazquez Montalban</autor>  
@@ -14,8 +13,7 @@
  <precio>50</precio>  
 </libro> 
  
-
- <libro>  
+<libro>  
  <titulo>Fuente Ovejuna</titulo>   
  <autor>Lope de Vega</autor>     
  <isbn>84-9815-002-7</isbn> 
