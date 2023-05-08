@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="file:/C:/Datos%20Windar/LenguajesDeMarcas/Evaluacion_3/Xsl/Boletines/Boletin_36/Boletin36.xsl"?>
-<libros>
+<?xml-stylesheet type="text/xsl" href="/home/dam1/Documentos/lenguajes%20de%20marcas/Evaluacion_3/Xsl/Boletines/Boletin_36/Boletin36.xsl"?><libros>
 <libro leng="español">
     <titulo>Fuente Ovejuna</titulo>
     <autor>Lope de Vega</autor>

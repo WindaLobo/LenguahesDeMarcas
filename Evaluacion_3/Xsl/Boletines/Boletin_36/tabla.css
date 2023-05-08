@@ -1,12 +1,15 @@
-table, td,th{
+table, th,td{
   border: 1px solid black;
+ 
 }
 
-th{
+td{
   text-align: left;
-  background-color: skyblue;
+ 
 }
 
 td#rojo{
   background-color: red;
 }
+tr#Color1,#Color2{
+background-color: #85c1e9}
